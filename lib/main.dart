@@ -1,7 +1,10 @@
 import 'package:currency_exchange/routes.dart';
 import 'package:flutter/material.dart';
 
+import 'di/di_setup.dart';
+
 void main() {
+  diSetup();
   runApp(const MyApp());
 }
 
